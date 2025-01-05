@@ -1,0 +1,187 @@
+* {
+    font-family: 'Segoe UI';
+    margin: 0;
+    padding: 0;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+    padding: 30px 0px;
+
+
+
+
+}
+
+.right ul {
+    display: flex;
+    gap: 54px;
+}
+
+.right ul li {
+    list-style: none;
+
+
+
+}
+
+.logo img {
+    width: 175px;
+
+
+}
+
+.headings {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 55px;
+
+}
+
+.headings span {
+    font-size: 40px;
+    padding-top: 40px;
+
+}
+
+.headings button {
+    min-height: 48px;
+    min-width: 256px;
+    background-color: #09a6bd;
+    border-radius: 5px;
+    padding: 12px 20px;
+    border: none;
+    color: white;
+    font-weight: 700;
+    font-size: 14px;
+
+
+}
+
+.headings p {
+    width: 900px;
+    text-align: center;
+    font-size: 23px;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-left: 276px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+
+
+
+}
+
+.bigone {
+    font-size: 24px;
+}
+
+.smallone {
+    font-size: 14px;
+}
+
+
+.element {
+    display: grid;
+    grid-template-columns: 302px 302px 302px;
+    grid-template-rows: 200px 200px 200px 200px;
+    justify-content: center;
+    gap: 25px;
+}
+
+.item1 {
+    background-color: #f9f9f9;
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+
+.item2 {
+    background-color: #f9f9f9;
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+
+.item3 {
+    background-color: #f9f9f9;
+    grid-column: 3/4;
+    grid-row: 1/2;
+}
+
+.item4 {
+    background-color: #f9f9f9;
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+
+.item5 {
+    background-color: #f9f9f9;
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+
+.item6 {
+    background-color: #f9f9f9;
+    grid-column: 3/4;
+    grid-row: 2/3;
+}
+
+.item7 {
+    background-color: #f9f9f9;
+    grid-column: 1/2;
+    grid-row: 3/4;
+
+}
+
+.item8 {
+    background-color: #f9f9f9;
+    grid-column: 2/3;
+    grid-row: 3/4;
+}
+
+.item9 {
+    background-color: #f9f9f9;
+    grid-column: 3/4;
+    grid-row: 3/4;
+}
+
+.item10 {
+    background-color: #f9f9f9;
+    grid-column: 1/2;
+    grid-row: 4/5;
+}
+
+.item {
+    justify-items: center;
+}
+
+div a {
+    background-color: #5CB85C;
+    border-radius: 6px;
+    padding: 8px 16px;
+    display: flex;
+    font-size: 12px;
+    font-weight: 600;
+    color: white;
+    margin: 25px;
+    text-decoration: none;
+}
+
+.item h3 {
+    font-size: 20px;
+    padding: 20px 0px 10px 0px;
+}
+
+.item span {
+    font-size: 12px;
+}
+
+.item1 a {
+    margin: 44px;
+}
